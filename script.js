@@ -1,7 +1,7 @@
 const galleries = {
-    pasta1: ['imagens/pasta1/1.webp', 'imagens/pasta1/2.webp', 'imagens/pasta1/3.webp'],
-    pasta2: ['imagens/pasta2/1.webp', 'imagens/pasta2/2.webp', 'imagens/pasta2/3.webp'],
-    pasta3: ['imagens/pasta3/img1.jpg', 'imagens/pasta3/img2.jpg', 'imagens/pasta3/img3.jpg']
+    pasta1: ['imagens/Pasta1/1.webp', 'imagens/Pasta1/2.webp', 'imagens/Pasta1/3.webp'],
+    pasta2: ['imagens/Pasta2/1.webp', 'imagens/Pasta2/2.webp', 'imagens/Pasta2/3.webp'],
+    pasta3: ['imagens/Pasta3/img1.jpg', 'imagens/Pasta3/img2.jpg', 'imagens/Pasta3/img3.jpg']
 };
 
 function openGallery(folder) {
