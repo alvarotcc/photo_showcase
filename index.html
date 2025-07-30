@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1 class="piscar">Mostruario Vera</h1>
+    <div class="container">
+        <div class="folders">
+            <div class="folder" onclick="openGallery('pasta1')">Langerie</div>
+            <div class="folder" onclick="openGallery('pasta2')">Feminina</div>
+            <div class="folder" onclick="openGallery('pasta3')">Masculina</div>
+        </div>
+    </div>
+
+    <div id="gallery" class="gallery">
+        <button id="close-gallery" onclick="closeGallery()">Fechar</button>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">×</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
