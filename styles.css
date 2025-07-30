@@ -4,7 +4,7 @@ body {
     background-image: url('/imagens/background.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(231, 222, 222);
 }
 .piscar {
     animation: blink 0.5s infinite;
